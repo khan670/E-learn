@@ -3,7 +3,7 @@ import { RiSendPlaneFill } from "react-icons/ri";
 
 const NewsLetter = () => {
   return (
-    <section className="px-22 py-6 mt-10 flex flex-col gap-5">
+    <section className="px-22 py-6 my-10 flex flex-col gap-5">
       <h1 className="text-4xl text-center capitalize leading-[1.2] text-[#1A2D62] font-bold">
         Subscripbe to our newsletter,
         <br /> We don&apos;t make any spam.

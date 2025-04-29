@@ -15,7 +15,7 @@ const ActionButton = ({ text, onClick, className }: PropType) => {
       <span className="relative z-10 h">{text} </span>
       <IoIosArrowRoundForward
         size={25}
-        className="group-hover:text-[#1A2D62] relative z-10"
+        className="group-hover:text-white relative z-10"
       />
     </button>
   );

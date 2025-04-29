@@ -2,6 +2,7 @@ import { navigationData } from "@/data/NavigationData";
 import React from "react";
 import { IoCartOutline } from "react-icons/io5";
 import { RiGraduationCapFill } from "react-icons/ri";
+import Button from "./Button";
 
 const Header = () => {
   return (
@@ -25,9 +26,7 @@ const Header = () => {
           </span>
         </div>
         <div className="flex gap-3 items-center">
-          <button className="px-6 py-3 hover:shadow cursor-pointer transition-all duration-300 text-white rounded-3xl text-base font-semibold bg-[#2ECA7F]">
-            Login
-          </button>
+          <Button text="Login" />
           <button className="px-6 py-3 border hover:shadow cursor-pointer  transition-all duration-300 border-gray-300 text-[#1A2D62] rounded-3xl text-base font-semibold ">
             Sign Up
           </button>

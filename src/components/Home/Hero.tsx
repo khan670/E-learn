@@ -3,7 +3,7 @@ import React from "react";
 
 import { GoFileCode } from "react-icons/go";
 import { MdPeopleOutline } from "react-icons/md";
-import ActionButton from "./ActionButton";
+import ActionButton from "../ActionButton";
 
 const Hero = () => {
   return (

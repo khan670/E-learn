@@ -1,7 +1,8 @@
 import React from "react";
 import { ImCheckboxChecked } from "react-icons/im";
-import ActionButton from "./ActionButton";
+
 import Image from "next/image";
+import ActionButton from "../ActionButton";
 
 const Learning = () => {
   return (

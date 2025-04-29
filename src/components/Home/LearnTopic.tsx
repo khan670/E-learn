@@ -8,7 +8,7 @@ import { SiFigma } from "react-icons/si";
 const LearnTopic = () => {
   return (
     <section
-      className="px-22 py-15 mt-10"
+      className="px-22 py-15 my-10"
       style={{ backgroundImage: "url('/learnTopics.png')" }}>
       <h3 className="text-base uppercase tracking-wide flex items-center gap-2 font-semibold text-[#2ECA7F]">
         Start Learning
@@ -19,7 +19,7 @@ const LearnTopic = () => {
         <span className="text-[#2ECA7F] underline">Topics To Learn</span> From
         Today.
       </h1>
-      <div className="mt-5 grid grid-cols-3 gap-5">
+      <div className="mt-10 grid grid-cols-3 gap-5">
         {/* cards of courses */}
         {[
           SiFigma,

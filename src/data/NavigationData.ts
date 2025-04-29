@@ -5,9 +5,7 @@ export const navigationData = [
   {
     text: "Courses",
   },
-  {
-    text: "Event",
-  },
+
   {
     text: "Instructor",
   },

@@ -1,6 +1,7 @@
 import React from "react";
-import CourseCard from "./CourseCard";
-import ActionButton from "./ActionButton";
+import CourseCard from "../CourseCard";
+
+import Button from "../Button";
 
 const Courses = () => {
   return (
@@ -17,7 +18,10 @@ const Courses = () => {
           <CourseCard key={value} />
         ))}
       </div>
-      <ActionButton text="View Courses" className="mt-10 mx-auto" />
+      <Button
+        text="View All Courses"
+        className="mt-10 mx-auto flex items-center justify-center"
+      />
     </section>
   );
 };

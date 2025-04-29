@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { Mulish } from "next/font/google";
-import "./globals.css";
+// import "../globals.css";
+import "../globals.css";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const mulish = Mulish({
   subsets: ["latin"],
@@ -25,6 +27,7 @@ export default function RootLayout({
         className={` ${mulish.variable} font-lato antialiased bg-[#FBFBFF]`}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

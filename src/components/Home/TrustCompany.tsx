@@ -5,7 +5,7 @@ import Marquee from "react-fast-marquee";
 const TrustCompany = () => {
   return (
     <section className="px-22 py-6 mt-20">
-      <div className="bg-[#EAFAF2]  w-2/4 py-2  mx-auto text-center text-2xl font-semibold text-[#2ECA7F] rounded-2xl">
+      <div className="bg-[#EAFAF2]  w-2/4 py-2  mx-auto text-center text-2xl font-semibold text-[#2ECA7F] rounded-4xl">
         <p>Trusted Company Arround The World!</p>
       </div>
       <div className="my-20">
