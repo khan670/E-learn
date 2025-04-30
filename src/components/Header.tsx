@@ -6,7 +6,7 @@ import Button from "./Button";
 
 const Header = () => {
   return (
-    <header className="px-22 py-6 ">
+    <header className="px-22 py-6 bg-white shadow  ">
       <nav className="flex gap-10 items-center">
         <h1 className="font-bold text-3xl tracking-wider flex items-center gap-2 text-[#1A2D62]">
           <RiGraduationCapFill size={50} className="text-[#2ECA7F]" />
