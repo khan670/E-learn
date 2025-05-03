@@ -23,8 +23,8 @@ const InstructorDetailPage = () => {
           <hr className="text-gray-500" />
           <p className="text-gray-500 font-medium text-base ">
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever type book.
+            industry. Lorem Ipsum has been the industry&apos;s standard dummy
+            text ever type book.
           </p>
           <ul className="flex flex-col gap-2">
             <li className="flex items-center gap-2 font-medium text-lg text-[#1A2D62]">
